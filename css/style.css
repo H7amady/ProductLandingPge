@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    background: #eee;
+}
+#header {
+    position: fixed;
+    top: 0;
+    left: 3%;
+    width: 95%;
+    height: 80px;
+    background: #eee;
+}
+#header-img {
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+}
+#nav-bar {
+    float: right;
+    width: 75%;
+}
+#nav-bar ul {
+    text-align: right;
+}
+#nav-bar ul li {
+    padding: 5px 30px;
+    margin: 5px;
+    list-style: none;
+    display: inline-block;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+#main {
+    margin-top: 80px;
+    text-align: center;
+}
+#form {
+    display: block;
+}
+#form h1 {
+    font-size: 1.4em;
+}
+#email {
+    max-width: 300px;
+    width: 100%;
+    display: inline-block;
+    height: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+#submit {
+    display: block;
+    margin: 0 auto;
+    background: rgb(229, 233, 11);
+    padding: 5px 10px;
+    border: 0;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.feature {
+    text-align: left;
+    margin: 20px 10px;
+    margin-left: 20%;
+    padding: 10px;
+}
+#video iframe {
+    max-width: 695px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
+}
+#pricing {
+    margin: 20px;
+}
+.offer {
+    width: 300px;
+    display: inline-block;
+    border: 1px #333 solid;
+    padding: 0;
+    margin: 10px;
+}
+.offer h3 {
+    background: #ddd;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 20px;
+}
+.offer h1 {
+    font-weight: 400;
+    padding: 10px 20px;
+}
+#button {
+    background: rgb(233, 229, 15);
+    border: 0;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin: 20px;
+}
+#footer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: right;
+    background: #ddd;
+}
+#footer ul li {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+#footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+#footer p {
+    font-size: 1em;
+    padding: 5px;
+}
+@media  (max-width: 1045px){
+    #pricing {
+        margin: 20px 10px;
+    }
+    .offer {
+        width: 250px;
+        display: inline-block;
+        border: 1px #333 solid;
+        padding: 0;
+        margin: 10px;
+    }
+    #video iframe {
+        width: 80%;
+        height: 80%;
+    }
+    .feature {
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+}
+@media (max-width: 865px){
+    
+    #pricing {
+        margin: 0 auto;
+    }
+    .offer {
+        width: 60%;
+    }
+    
+    .feature {
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+}
+@media (max-width: 700px){
+    #main {
+       margin: 0 auto;
+    }
+    .myForm {
+       margin-top: 80px;
+    }
+    #nav-bar ul li {
+        padding: 5px 10px;
+        margin: 5px;
+        list-style: none;
+        display: inline-block;
+    }
+    
+    .feature {
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+}
+@media (max-width: 550px){
+    #header {
+        height: 80px;
+    }
+    #main {
+        margin-top: 100px;
+    }
+    #header-img {
+        text-align: center;
+        margin: 5px;
+        width: 100%;
+    }
+    #nav-bar {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #nav-bar ul {
+        padding: 0;
+        text-align: center;
+        margin-top: 5px;
+    }
+    #nav-bar ul li {
+        padding: 5px 10px;
+        text-align: center;
+        margin: 5px;
+        list-style: none;
+        display: inline-block;
+    }
+    #footer {
+        text-align: center;
+    }
+}
+@media (max-width: 330px){
+  #nav-bar ul li {
+    text-align: center;
+    margin: 5px;
+    list-style: none;
+    display: block;
+  }
+  #main {
+    margin-top: 150px;
+  }
+  #email {
+    width: 80%;
+  }
+}
